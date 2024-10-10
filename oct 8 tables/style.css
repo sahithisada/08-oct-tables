@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&display=swap');
+
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    color: rgb(104, 38, 38);
+}
+
+.certificate {
+    width: 800px;
+    margin: 50px auto;
+    background-color: #f3edd3;
+    padding: 20px;
+    border: 3px solid #141313;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #470303;
+    padding-bottom: 10px;
+}
+
+.left, .right {
+    width: 20%;
+    text-align: center;
+}
+
+.center {
+    width: 60%;
+    text-align: center;
+}
+
+.center h1 {
+    margin: 5px 0;
+    font-family: "Grenze Gotisch", serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.center h3 {
+    margin: 5px 0;
+    font-size: 20px;
+}
+.bar-code{
+    object-fit: fill;
+    width: 100px;
+}
+.qr-code {
+    width: 80px;
+    height: 80px;
+}
+.profile-pic{
+    width: 150px;
+    height: 170px;
+}
+
+.main-info {
+    border-bottom: 1px solid #470303;
+    margin: 0px 0;
+    background-color: bisque;
+}
+
+.grades table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: bisque;
+}
+.grades th, .grades td{
+    border: 2px solid #470303;
+    padding: 8px;
+    text-align: center;
+}
+
+.other-info{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.other-info table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: bisque;
+}
+.other-info th, .other-info td {
+    border: 2px solid #470303;
+    padding: 8px;
+    text-align: center;
+}
+
+.marks-identification{
+    border: 2px solid #470303;
+    width: 98.7%;
+    margin: 10px 0;
+    padding-left: 10px;
+    background-color: bisque;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fleft{
+    width: 20%;
+    text-align: center;
+}
+.fright {
+    width: 30%;
+    text-align: center;
+}
+
+.fcenter {
+    width: 60%;
+    text-align: center;
+}
